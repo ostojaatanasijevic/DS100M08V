@@ -1,0 +1,530 @@
+Circuit: * Z:\home\ostoja\Elektronika\Projekti\DP_5V\simulacije\300_TLV.asc
+
+WARNING: Node N002 is floating.
+WARNING: Node N003 is floating.
+WARNING: Node N004 is floating.
+WARNING: Node N023 is floating.
+WARNING: Node N024 is floating.
+WARNING: Node N025 is floating.
+
+WARNING: Less than two connections to node 2.5V.  This node is used by V1.
+WARNING: Less than two connections to node -2.5V.  This node is used by V2.
+WARNING: Less than two connections to node 9V.  This node is used by V4.
+WARNING: Less than two connections to node -9V.  This node is used by V6.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.0412
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.0132
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.00827
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00515
+vernier = 0.000651042
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 1.00434
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 1.00339
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 27.2846%
+Source Step = 27.329%
+Source Step = 27.3585%
+Source Step = 27.3881%
+Source Step = 27.4177%
+Source Step = 27.4473%
+Source Step = 27.4769%
+Source Step = 27.5065%
+Source Step = 27.5361%
+vernier = 0.00146484
+Source Step = 27.5716%
+Source Step = 27.616%
+Source Step = 27.6604%
+Source Step = 27.7048%
+Source Step = 27.7492%
+vernier = 0.00219727
+Source Step = 27.8002%
+Source Step = 27.8668%
+Source Step = 27.9334%
+Source Step = 28%
+Source Step = 28.0666%
+vernier = 0.0032959
+Source Step = 28.1398%
+Source Step = 28.2397%
+Source Step = 28.3395%
+Source Step = 28.4394%
+Source Step = 28.5393%
+vernier = 0.00494385
+Source Step = 28.6442%
+Source Step = 28.794%
+Source Step = 28.9438%
+Source Step = 29.0936%
+Source Step = 29.2434%
+Source Step = 29.3932%
+vernier = 0.00741577
+Source Step = 29.618%
+Source Step = 29.8427%
+Source Step = 30.0674%
+Source Step = 30.2921%
+Source Step = 30.5168%
+vernier = 0.0111237
+Source Step = 30.8427%
+Source Step = 31.1798%
+Source Step = 31.5168%
+Source Step = 31.8539%
+Source Step = 32.191%
+vernier = 0.0166855
+Source Step = 32.6629%
+Source Step = 33.1685%
+Source Step = 33.6742%
+Source Step = 34.1798%
+Source Step = 34.6854%
+vernier = 0.0250282
+Source Step = 35.368%
+Source Step = 36.1264%
+Source Step = 36.8849%
+Source Step = 37.6433%
+Source Step = 38.4017%
+vernier = 0.0375423
+Source Step = 39.3877%
+Source Step = 40.5253%
+Source Step = 41.663%
+Source Step = 42.8006%
+Source Step = 43.9383%
+vernier = 0.0563135
+Source Step = 45.3603%
+Source Step = 47.0668%
+Source Step = 48.7733%
+Source Step = 50.4797%
+Source Step = 52.1862%
+vernier = 0.0844703
+Source Step = 54.234%
+Source Step = 56.7937%
+Source Step = 59.3534%
+Source Step = 61.9131%
+Source Step = 64.4728%
+vernier = 0.126705
+Source Step = 67.4164%
+Source Step = 71.256%
+Source Step = 75.0956%
+Source Step = 78.9351%
+Source Step = 82.7747%
+vernier = 0.190058
+Source Step = 86.9982%
+Source Step = 92.7575%
+Source Step = 98.5169%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 1.30503e-008 to 1.30503e-008
+Heightened Def Con from 1.30503e-008 +to 1.30503e-008
+Heightened Def Con from 1.30503e-008 +to 1.30503e-008
+Heightened Def Con from 1.30503e-008 +to 1.30503e-008
+Heightened Def Con from 1.30503e-008 to 1.30503e-008
+Heightened Def Con from 1.30503e-008 to 1.30503e-008
+Heightened Def Con from 1.30503e-008 to 1.30503e-008
+Heightened Def Con from 1.30503e-008 to 1.30503e-008
+Heightened Def Con from 1.30503e-008 to 1.30503e-008
+Heightened Def Con from 3.83186e-008 to 3.83187e-008
+Heightened Def Con from 4.83026e-008 to 4.83026e-008
+Heightened Def Con from 4.83026e-008 to 4.83026e-008
+Heightened Def Con from 5.82665e-008 to 5.82665e-008
+Heightened Def Con from 5.82665e-008 ++to 5.82665e-008
+Heightened Def Con from 5.82665e-008 ++++to 5.82665e-008
+Heightened Def Con from 5.82665e-008 +to 5.82665e-008
+Heightened Def Con from 8.395e-008 to 8.395e-008
+Heightened Def Con from 8.395e-008 to 8.395e-008
+Heightened Def Con from 9.32796e-008 to 9.32796e-008
+Heightened Def Con from 9.33773e-008 +to 9.33773e-008
+Heightened Def Con from 9.33773e-008 to 9.33773e-008
+Heightened Def Con from 1.03267e-007 to 1.03267e-007
+Heightened Def Con from 1.03267e-007 to 1.03267e-007
+Heightened Def Con from 1.27794e-007 to 1.27794e-007
+Heightened Def Con from 1.27794e-007 +to 1.27794e-007
+Heightened Def Con from 1.3829e-007 to 1.3829e-007
+Heightened Def Con from 1.5212e-007 to 1.5212e-007
+Heightened Def Con from 1.5212e-007 +to 1.5212e-007
+Heightened Def Con from 1.5212e-007 to 1.5212e-007
+Heightened Def Con from 1.68295e-007 to 1.68295e-007
+Heightened Def Con from 1.73267e-007 to 1.73267e-007
+Heightened Def Con from 1.73267e-007 ++++++to 1.73267e-007
+Heightened Def Con from 1.73267e-007 +++to 1.73267e-007
+Heightened Def Con from 1.80049e-007 +++to 1.80049e-007
+Heightened Def Con from 1.80049e-007 to 1.80049e-007
+Heightened Def Con from 1.80049e-007 to 1.80049e-007
+Heightened Def Con from 1.80049e-007 +++to 1.80049e-007
+Heightened Def Con from 2.23266e-007 to 2.23266e-007
+Heightened Def Con from 2.23266e-007 to 2.23266e-007
+Heightened Def Con from 2.33009e-007 to 2.33009e-007
+Heightened Def Con from 2.33009e-007 +to 2.33009e-007
+Heightened Def Con from 2.33009e-007 ++++to 2.33009e-007
+Heightened Def Con from 2.33009e-007 to 2.33009e-007
+Heightened Def Con from 2.38287e-007 to 2.38287e-007
+Heightened Def Con from 2.38287e-007 to 2.38287e-007
+Heightened Def Con from 2.38287e-007 +++to 2.38287e-007
+Heightened Def Con from 2.38287e-007 to 2.38287e-007
+Heightened Def Con from 2.53272e-007 to 2.53272e-007
+Heightened Def Con from 2.58294e-007 to 2.58294e-007
+Heightened Def Con from 2.58294e-007 +++++to 2.58294e-007
+Heightened Def Con from 2.58294e-007 +to 2.58294e-007
+Heightened Def Con from 2.58294e-007 to 2.58294e-007
+Heightened Def Con from 2.6013e-007 to 2.6013e-007
+Heightened Def Con from 2.6013e-007 ++++to 2.6013e-007
+Heightened Def Con from 2.6013e-007 to 2.6013e-007
+Heightened Def Con from 2.61886e-007 to 2.61886e-007
+Heightened Def Con from 2.61886e-007 to 2.61886e-007
+Heightened Def Con from 2.61886e-007 to 2.61886e-007
+Heightened Def Con from 2.63273e-007 to 2.63273e-007
+Heightened Def Con from 2.63273e-007 to 2.63273e-007
+Heightened Def Con from 2.63273e-007 +to 2.63273e-007
+Heightened Def Con from 2.63273e-007 to 2.63273e-007
+Heightened Def Con from 2.7327e-007 to 2.7327e-007
+Heightened Def Con from 2.7327e-007 to 2.7327e-007
+Heightened Def Con from 2.83072e-007 to 2.83072e-007
+Heightened Def Con from 2.93379e-007 to 2.93379e-007
+Heightened Def Con from 3.0709e-007 to 3.0709e-007
+Heightened Def Con from 3.13247e-007 to 3.13247e-007
+Heightened Def Con from 3.13594e-007 to 3.13594e-007
+Heightened Def Con from 3.13594e-007 +++to 3.13594e-007
+Heightened Def Con from 3.13594e-007 to 3.13594e-007
+Heightened Def Con from 3.13594e-007 +to 3.13594e-007
+Heightened Def Con from 3.13594e-007 +to 3.13594e-007
+Heightened Def Con from 3.13594e-007 to 3.13594e-007
+Heightened Def Con from 3.22878e-007 to 3.22878e-007
+Heightened Def Con from 3.22878e-007 to 3.22878e-007
+Heightened Def Con from 3.23276e-007 to 3.23276e-007
+Heightened Def Con from 3.32468e-007 to 3.32468e-007
+Heightened Def Con from 3.3301e-007 to 3.3301e-007
+Heightened Def Con from 3.3301e-007 +to 3.3301e-007
+Heightened Def Con from 3.3301e-007 to 3.3301e-007
+Heightened Def Con from 3.38297e-007 to 3.38297e-007
+Heightened Def Con from 3.38297e-007 to 3.38297e-007
+Heightened Def Con from 3.48291e-007 to 3.48291e-007
+Heightened Def Con from 3.48291e-007 to 3.48291e-007
+Heightened Def Con from 3.52119e-007 to 3.52119e-007
+Heightened Def Con from 3.52119e-007 +to 3.52119e-007
+Heightened Def Con from 3.52119e-007 +to 3.52119e-007
+Heightened Def Con from 3.52119e-007 +to 3.52119e-007
+Heightened Def Con from 3.58294e-007 to 3.58294e-007
+Heightened Def Con from 3.60128e-007 to 3.60128e-007
+Heightened Def Con from 3.7326e-007 to 3.7326e-007
+Heightened Def Con from 3.8328e-007 to 3.8328e-007
+Heightened Def Con from 3.8328e-007 to 3.8328e-007
+Heightened Def Con from 3.8328e-007 +to 3.8328e-007
+Heightened Def Con from 3.8328e-007 to 3.8328e-007
+Heightened Def Con from 4.0709e-007 to 4.0709e-007
+Heightened Def Con from 4.27846e-007 to 4.27846e-007
+Heightened Def Con from 4.27846e-007 to 4.27846e-007
+Heightened Def Con from 4.28286e-007 ++++to 4.28286e-007
+Heightened Def Con from 4.28286e-007 to 4.28286e-007
+Heightened Def Con from 4.32475e-007 to 4.32475e-007
+Heightened Def Con from 4.32475e-007 to 4.32475e-007
+Heightened Def Con from 4.33006e-007 to 4.33006e-007
+Heightened Def Con from 4.38183e-007 to 4.38183e-007
+Heightened Def Con from 4.42167e-007 to 4.42167e-007
+Heightened Def Con from 4.42488e-007 to 4.42488e-007
+Heightened Def Con from 4.42488e-007 to 4.42488e-007
+Heightened Def Con from 4.43269e-007 +++++++to 4.43269e-007
+Heightened Def Con from 4.44212e-007 +to 4.44212e-007
+Heightened Def Con from 4.44212e-007 to 4.44212e-007
+Heightened Def Con from 4.44212e-007 to 4.44212e-007
+Heightened Def Con from 4.44212e-007 to 4.44212e-007
+Heightened Def Con from 4.44212e-007 to 4.44212e-007
+Heightened Def Con from 4.5208e-007 to 4.5208e-007
+Heightened Def Con from 4.52121e-007 to 4.52121e-007
+Heightened Def Con from 4.7327e-007 ++++++to 4.7327e-007
+Heightened Def Con from 4.7327e-007 to 4.7327e-007
+Heightened Def Con from 4.93265e-007 to 4.93265e-007
+Heightened Def Con from 4.93265e-007 to 4.93265e-007
+Heightened Def Con from 4.93265e-007 to 4.93265e-007
+Heightened Def Con from 5.03271e-007 to 5.03271e-007
+Heightened Def Con from 5.03271e-007 +to 5.03271e-007
+Heightened Def Con from 5.03271e-007 to 5.03271e-007
+Heightened Def Con from 5.03952e-007 +to 5.03952e-007
+Heightened Def Con from 5.03952e-007 +to 5.03952e-007
+Heightened Def Con from 5.03952e-007 to 5.03952e-007
+Heightened Def Con from 5.03952e-007 to 5.03952e-007
+Heightened Def Con from 5.03952e-007 to 5.03952e-007
+Heightened Def Con from 5.13266e-007 +to 5.13266e-007
+Heightened Def Con from 5.13266e-007 to 5.13266e-007
+Heightened Def Con from 5.17386e-007 to 5.17386e-007
+Heightened Def Con from 5.27793e-007 to 5.27793e-007
+Heightened Def Con from 5.28286e-007 to 5.28286e-007
+Heightened Def Con from 5.28286e-007 to 5.28286e-007
+Heightened Def Con from 5.33266e-007 to 5.33266e-007
+Heightened Def Con from 5.33266e-007 +to 5.33266e-007
+Heightened Def Con from 5.33266e-007 +++to 5.33266e-007
+Heightened Def Con from 5.33266e-007 to 5.33266e-007
+Heightened Def Con from 5.48296e-007 to 5.48296e-007
+Heightened Def Con from 5.48296e-007 ++++to 5.48296e-007
+Heightened Def Con from 5.48296e-007 ++++to 5.48296e-007
+Heightened Def Con from 5.48296e-007 to 5.48296e-007
+Heightened Def Con from 5.48376e-007 to 5.48376e-007
+Heightened Def Con from 5.48376e-007 to 5.48376e-007
+Heightened Def Con from 5.58294e-007 to 5.58294e-007
+Heightened Def Con from 5.58294e-007 to 5.58294e-007
+Heightened Def Con from 5.58294e-007 ++++to 5.58294e-007
+Heightened Def Con from 5.58294e-007 +++++to 5.58294e-007
+Heightened Def Con from 5.58294e-007 ++++to 5.58294e-007
+Heightened Def Con from 5.73265e-007 ++++to 5.73265e-007
+Heightened Def Con from 5.73265e-007 to 5.73265e-007
+Heightened Def Con from 5.9437e-007 to 5.9437e-007
+Heightened Def Con from 5.9437e-007 to 5.9437e-007
+Heightened Def Con from 6.23555e-007 to 6.23555e-007
+Heightened Def Con from 6.28289e-007 ++++to 6.28289e-007
+Heightened Def Con from 6.28289e-007 ++++to 6.28289e-007
+Heightened Def Con from 6.28289e-007 to 6.28289e-007
+Heightened Def Con from 6.33652e-007 to 6.33652e-007
+Heightened Def Con from 6.33652e-007 to 6.33652e-007
+Heightened Def Con from 6.33652e-007 to 6.33652e-007
+Heightened Def Con from 6.43272e-007 +to 6.43272e-007
+Heightened Def Con from 6.43272e-007 +to 6.43272e-007
+Heightened Def Con from 6.43272e-007 ++++++to 6.43272e-007
+Heightened Def Con from 6.43272e-007 to 6.43272e-007
+Heightened Def Con from 6.43272e-007 +++to 6.43272e-007
+Heightened Def Con from 6.43272e-007 to 6.43272e-007
+Heightened Def Con from 6.52119e-007 +to 6.52119e-007
+Heightened Def Con from 6.52119e-007 to 6.52119e-007
+Heightened Def Con from 6.58292e-007 to 6.58292e-007
+Heightened Def Con from 6.58292e-007 to 6.58292e-007
+Heightened Def Con from 6.58292e-007 to 6.58292e-007
+Heightened Def Con from 6.58293e-007 to 6.58293e-007
+Heightened Def Con from 6.68293e-007 to 6.68293e-007
+Heightened Def Con from 6.73261e-007 to 6.73261e-007
+Heightened Def Con from 6.73261e-007 to 6.73261e-007
+Heightened Def Con from 6.73261e-007 to 6.73261e-007
+Heightened Def Con from 6.73261e-007 to 6.73261e-007
+Heightened Def Con from 6.73261e-007 ++++++to 6.73261e-007
+Heightened Def Con from 6.73261e-007 to 6.73261e-007
+Heightened Def Con from 7.03267e-007 +to 7.03267e-007
+Heightened Def Con from 7.03267e-007 to 7.03267e-007
+Heightened Def Con from 7.10389e-007 ++to 7.10389e-007
+Heightened Def Con from 7.13267e-007 to 7.13267e-007
+Heightened Def Con from 7.13267e-007 to 7.13267e-007
+Heightened Def Con from 7.13267e-007 to 7.13267e-007
+Heightened Def Con from 7.17384e-007 to 7.17384e-007
+Heightened Def Con from 7.22869e-007 to 7.22869e-007
+Heightened Def Con from 7.33581e-007 +++to 7.33581e-007
+Heightened Def Con from 7.33581e-007 to 7.33581e-007
+Heightened Def Con from 7.33668e-007 to 7.33668e-007
+Heightened Def Con from 7.33668e-007 to 7.33668e-007
+Heightened Def Con from 7.38297e-007 to 7.38297e-007
+Heightened Def Con from 7.42488e-007 to 7.42488e-007
+Heightened Def Con from 7.42488e-007 to 7.42488e-007
+Heightened Def Con from 7.48287e-007 to 7.48287e-007
+Heightened Def Con from 7.48287e-007 to 7.48287e-007
+Heightened Def Con from 7.5212e-007 ++++++to 7.5212e-007
+Heightened Def Con from 7.5212e-007 +++to 7.5212e-007
+Heightened Def Con from 7.58296e-007 to 7.58296e-007
+Heightened Def Con from 7.58296e-007 to 7.58296e-007
+Heightened Def Con from 7.58296e-007 to 7.58296e-007
+Heightened Def Con from 7.58296e-007 to 7.58296e-007
+Heightened Def Con from 7.73263e-007 to 7.73263e-007
+Heightened Def Con from 7.81908e-007 to 7.81908e-007
+Heightened Def Con from 7.81908e-007 to 7.81908e-007
+Heightened Def Con from 8.03264e-007 to 8.03264e-007
+Heightened Def Con from 8.03264e-007 to 8.03264e-007
+Heightened Def Con from 8.33002e-007 +++++to 8.33002e-007
+Heightened Def Con from 8.33002e-007 to 8.33002e-007
+Heightened Def Con from 8.33002e-007 to 8.33002e-007
+Heightened Def Con from 8.63268e-007 ++to 8.63268e-007
+Heightened Def Con from 8.63268e-007 ++to 8.63268e-007
+Heightened Def Con from 8.63268e-007 to 8.63268e-007
+Heightened Def Con from 8.78286e-007 +++to 8.78286e-007
+Heightened Def Con from 8.78286e-007 +to 8.78286e-007
+Heightened Def Con from 8.78286e-007 to 8.78286e-007
+Heightened Def Con from 8.8466e-007 +++to 8.8466e-007
+Heightened Def Con from 8.8466e-007 to 8.8466e-007
+Heightened Def Con from 8.93266e-007 to 8.93266e-007
+Heightened Def Con from 8.97056e-007 to 8.97056e-007
+Heightened Def Con from 9.03271e-007 to 9.03271e-007
+Heightened Def Con from 9.03954e-007 to 9.03954e-007
+Heightened Def Con from 9.03954e-007 ++++++to 9.03954e-007
+Heightened Def Con from 9.03954e-007 to 9.03954e-007
+Heightened Def Con from 9.18294e-007 to 9.18294e-007
+Heightened Def Con from 9.18294e-007 ++to 9.18294e-007
+Heightened Def Con from 9.18294e-007 ++++++to 9.18294e-007
+Heightened Def Con from 9.18294e-007 ++++++to 9.18294e-007
+Heightened Def Con from 9.22868e-007 to 9.22868e-007
+Heightened Def Con from 9.71809e-007 +++to 9.71809e-007
+Heightened Def Con from 9.71809e-007 ++++to 9.71809e-007
+Heightened Def Con from 9.71809e-007 to 9.71809e-007
+Heightened Def Con from 9.92183e-007 to 9.92183e-007
+Heightened Def Con from 9.93277e-007 to 9.93277e-007
+Heightened Def Con from 1.01327e-006 +to 1.01327e-006
+Heightened Def Con from 1.01327e-006 ++to 1.01327e-006
+Heightened Def Con from 1.01327e-006 to 1.01327e-006
+Heightened Def Con from 1.01327e-006 ++to 1.01327e-006
+Heightened Def Con from 1.01327e-006 +++++to 1.01327e-006
+Heightened Def Con from 1.01327e-006 ++++++++++to 1.01327e-006
+Heightened Def Con from 1.01327e-006 to 1.01327e-006
+Heightened Def Con from 1.02326e-006 to 1.02326e-006
+Heightened Def Con from 1.02326e-006 to 1.02326e-006
+Heightened Def Con from 1.02326e-006 to 1.02326e-006
+Heightened Def Con from 1.02326e-006 to 1.02326e-006
+Heightened Def Con from 1.03366e-006 to 1.03366e-006
+Heightened Def Con from 1.03366e-006 to 1.03366e-006
+Heightened Def Con from 1.03829e-006 to 1.03829e-006
+Heightened Def Con from 1.03829e-006 to 1.03829e-006
+Heightened Def Con from 1.04249e-006 to 1.04249e-006
+Heightened Def Con from 1.04249e-006 +to 1.04249e-006
+Heightened Def Con from 1.04249e-006 +to 1.04249e-006
+Heightened Def Con from 1.04249e-006 +to 1.04249e-006
+Heightened Def Con from 1.04327e-006 to 1.04327e-006
+Heightened Def Con from 1.04327e-006 to 1.04327e-006
+Heightened Def Con from 1.04829e-006 to 1.04829e-006
+Heightened Def Con from 1.04829e-006 +to 1.04829e-006
+Heightened Def Con from 1.04829e-006 to 1.04829e-006
+Heightened Def Con from 1.04829e-006 +++++to 1.04829e-006
+Heightened Def Con from 1.04829e-006 to 1.04829e-006
+Heightened Def Con from 1.04829e-006 to 1.04829e-006
+Heightened Def Con from 1.04829e-006 +++to 1.04829e-006
+Heightened Def Con from 1.04829e-006 +++to 1.04829e-006
+Heightened Def Con from 1.05212e-006 +++to 1.05212e-006
+Heightened Def Con from 1.05212e-006 to 1.05212e-006
+Heightened Def Con from 1.0583e-006 to 1.0583e-006
+Heightened Def Con from 1.0583e-006 +to 1.0583e-006
+Heightened Def Con from 1.0583e-006 to 1.0583e-006
+Heightened Def Con from 1.06394e-006 to 1.06394e-006
+Heightened Def Con from 1.06394e-006 ++++++to 1.06394e-006
+Heightened Def Con from 1.06394e-006 ++++to 1.06394e-006
+Heightened Def Con from 1.06394e-006 ++++to 1.06394e-006
+Heightened Def Con from 1.06394e-006 to 1.06394e-006
+Heightened Def Con from 1.06829e-006 to 1.06829e-006
+Heightened Def Con from 1.06829e-006 to 1.06829e-006
+Heightened Def Con from 1.0748e-006 +++to 1.0748e-006
+Heightened Def Con from 1.0748e-006 +++to 1.0748e-006
+Heightened Def Con from 1.0748e-006 to 1.0748e-006
+Heightened Def Con from 1.11327e-006 to 1.11327e-006
+Heightened Def Con from 1.1278e-006 +to 1.1278e-006
+Heightened Def Con from 1.12829e-006 to 1.12829e-006
+Heightened Def Con from 1.12829e-006 to 1.12829e-006
+Heightened Def Con from 1.12829e-006 ++to 1.12829e-006
+Heightened Def Con from 1.12829e-006 to 1.12829e-006
+Heightened Def Con from 1.13817e-006 to 1.13817e-006
+Heightened Def Con from 1.13829e-006 to 1.13829e-006
+Heightened Def Con from 1.15212e-006 to 1.15212e-006
+Heightened Def Con from 1.15212e-006 to 1.15212e-006
+Heightened Def Con from 1.15212e-006 +to 1.15212e-006
+Heightened Def Con from 1.15212e-006 +to 1.15212e-006
+Heightened Def Con from 1.16226e-006 to 1.16226e-006
+Heightened Def Con from 1.18307e-006 to 1.18307e-006
+Heightened Def Con from 1.18307e-006 to 1.18307e-006
+Heightened Def Con from 1.20709e-006 to 1.20709e-006
+Heightened Def Con from 1.21326e-006 to 1.21326e-006
+Heightened Def Con from 1.2136e-006 to 1.2136e-006
+Heightened Def Con from 1.21739e-006 to 1.21739e-006
+Heightened Def Con from 1.22287e-006 to 1.22287e-006
+Heightened Def Con from 1.23049e-006 to 1.23049e-006
+Heightened Def Con from 1.23049e-006 ++to 1.23049e-006
+Heightened Def Con from 1.23049e-006 to 1.23049e-006
+Heightened Def Con from 1.23049e-006 +to 1.23049e-006
+Heightened Def Con from 1.23049e-006 to 1.23049e-006
+Heightened Def Con from 1.23829e-006 to 1.23829e-006
+Heightened Def Con from 1.24829e-006 to 1.24829e-006
+Heightened Def Con from 1.24829e-006 to 1.24829e-006
+Heightened Def Con from 1.25212e-006 +++to 1.25212e-006
+Heightened Def Con from 1.25383e-006 +to 1.25383e-006
+Heightened Def Con from 1.25383e-006 to 1.25383e-006
+Heightened Def Con from 1.25383e-006 +to 1.25383e-006
+Heightened Def Con from 1.25383e-006 to 1.25383e-006
+Heightened Def Con from 1.25383e-006 to 1.25383e-006
+Heightened Def Con from 1.25383e-006 to 1.25383e-006
+Heightened Def Con from 1.25383e-006 +++++++to 1.25383e-006
+Heightened Def Con from 1.25383e-006 ++to 1.25383e-006
+Heightened Def Con from 1.27265e-006 to 1.27265e-006
+Heightened Def Con from 1.27265e-006 to 1.27265e-006
+Heightened Def Con from 1.28327e-006 to 1.28327e-006
+Heightened Def Con from 1.30327e-006 to 1.30327e-006
+Heightened Def Con from 1.30327e-006 +to 1.30327e-006
+Heightened Def Con from 1.30327e-006 +to 1.30327e-006
+Heightened Def Con from 1.30327e-006 to 1.30327e-006
+Heightened Def Con from 1.30327e-006 to 1.30327e-006
+Heightened Def Con from 1.30327e-006 to 1.30327e-006
+Heightened Def Con from 1.31322e-006 to 1.31322e-006
+Heightened Def Con from 1.31327e-006 to 1.31327e-006
+Heightened Def Con from 1.31361e-006 to 1.31361e-006
+Heightened Def Con from 1.31361e-006 ++++to 1.31361e-006
+Heightened Def Con from 1.31361e-006 +++++++++to 1.31361e-006
+Heightened Def Con from 1.32286e-006 to 1.32286e-006
+Heightened Def Con from 1.32286e-006 to 1.32286e-006
+Heightened Def Con from 1.33829e-006 to 1.33829e-006
+Heightened Def Con from 1.33829e-006 to 1.33829e-006
+Heightened Def Con from 1.33829e-006 +++++to 1.33829e-006
+Heightened Def Con from 1.33829e-006 +to 1.33829e-006
+Heightened Def Con from 1.33829e-006 to 1.33829e-006
+Heightened Def Con from 1.36829e-006 to 1.36829e-006
+Heightened Def Con from 1.36829e-006 to 1.36829e-006
+Heightened Def Con from 1.37327e-006 to 1.37327e-006
+Heightened Def Con from 1.38725e-006 to 1.38725e-006
+Heightened Def Con from 1.39326e-006 +++++++to 1.39326e-006
+Heightened Def Con from 1.41322e-006 to 1.41322e-006
+Heightened Def Con from 1.41322e-006 to 1.41322e-006
+Heightened Def Con from 1.41327e-006 to 1.41327e-006
+Heightened Def Con from 1.41327e-006 to 1.41327e-006
+Heightened Def Con from 1.41327e-006 to 1.41327e-006
+Heightened Def Con from 1.42327e-006 to 1.42327e-006
+Heightened Def Con from 1.42327e-006 to 1.42327e-006
+Heightened Def Con from 1.42327e-006 +to 1.42327e-006
+Heightened Def Con from 1.43326e-006 +++++to 1.43326e-006
+Heightened Def Con from 1.43326e-006 to 1.43326e-006
+Heightened Def Con from 1.43818e-006 to 1.43818e-006
+Heightened Def Con from 1.43818e-006 to 1.43818e-006
+Heightened Def Con from 1.43818e-006 to 1.43818e-006
+Heightened Def Con from 1.44217e-006 to 1.44217e-006
+Heightened Def Con from 1.44217e-006 to 1.44217e-006
+Heightened Def Con from 1.45327e-006 to 1.45327e-006
+Heightened Def Con from 1.45327e-006 to 1.45327e-006
+Heightened Def Con from 1.45829e-006 to 1.45829e-006
+Heightened Def Con from 1.46013e-006 to 1.46013e-006
+Heightened Def Con from 1.46013e-006 to 1.46013e-006
+Heightened Def Con from 1.48466e-006 ++to 1.48466e-006
+Heightened Def Con from 1.48466e-006 to 1.48466e-006
+Heightened Def Con from 1.48466e-006 to 1.48466e-006
+Heightened Def Con from 1.49338e-006 +to 1.49338e-006
+Heightened Def Con from 1.50327e-006 to 1.50327e-006
+Heightened Def Con from 1.50327e-006 to 1.50327e-006
+Heightened Def Con from 1.50344e-006 to 1.50344e-006
+Heightened Def Con from 1.50395e-006 +to 1.50395e-006
+Heightened Def Con from 1.50395e-006 +++to 1.50395e-006
+Heightened Def Con from 1.50395e-006 to 1.50395e-006
+Heightened Def Con from 1.50395e-006 to 1.50395e-006
+Heightened Def Con from 1.50674e-006 to 1.50674e-006
+
+Date: Wed Jun 19 10:15:08 2024
+Total elapsed time: 27.364 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 281111
+traniter = 272315
+tranpoints = 42385
+accept = 26295
+rejected = 16778
+matrix size = 421
+fillins = 952
+solver = Normal
+Thread vector: 43.8/17.0[8] 11.5/7.3[8] 14.3/6.6[8] 1.9/140.0[1]  2592/500
+Matrix Compiler1: 71.51 KB object code size  24.9/12.8/[6.5]
+Matrix Compiler2:    3863 opcodes

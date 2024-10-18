@@ -1,0 +1,100 @@
+(footprint "black_safety_4mm_connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, green, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf")
+	(tags "cliff 4mm socket jack banana green")
+	(property "Reference" "REF**"
+		(at 0 -10.25 0)
+		(layer "F.SilkS")
+		(uuid "5985c29b-72c0-4f82-8bbb-a3dcfdd8b754")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "black_safety_4mm_connector"
+		(at 0 9.75 0)
+		(layer "F.Fab")
+		(uuid "eb16273b-50cf-4ca0-9675-6d67ad6161bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "black_safety_4mm_connector"
+		(at 0.5 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158f422f-e656-4c4d-8370-22f665cb1de7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "412468e7-ef88-4f89-b322-4bf8dddfc71e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "600102f9-de40-4949-8717-e32e395e029e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 15 7)
+		(end -15 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2e9001bb-4d27-4c2d-859b-8909091b540b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e3f441fc-13c5-4d63-a7e4-842eff7d1dfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "/home/ostoja/Downloads/banana-plug-4mm-ct2238-1.snapshot.2/Banana Plug 4mm Red CT2238 v1.step"
+		(offset
+			(xyz -7.5 -65 -12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

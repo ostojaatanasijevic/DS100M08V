@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DS100M06V_linear")(type "KiCad")(uri "${DS100M06V}/DS100M06V_linear.pretty")(options "")(descr ""))
+)

@@ -4527,10 +4527,22 @@
 		(uuid "3799f034-b48d-4051-a4a7-47dcd2e09bde")
 	)
 	(junction
+		(at 34.29 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a465ed5-01f2-441e-9660-7d2986c9f4e3")
+	)
+	(junction
 		(at 303.53 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a995c08-42c6-434b-839d-f1ff26f64654")
+	)
+	(junction
+		(at 34.29 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d9665c5-5f05-4151-a20b-f5db3c2b5f49")
 	)
 	(junction
 		(at 340.36 234.95)
@@ -4563,6 +4575,12 @@
 		(uuid "5bcef974-f62d-48eb-b989-f7c399e3c422")
 	)
 	(junction
+		(at 34.29 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fdd260c-ad54-4f43-93ea-98af1887e124")
+	)
+	(junction
 		(at 152.4 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4575,22 +4593,10 @@
 		(uuid "64cc2e21-0db4-4995-8750-29efbe1b2472")
 	)
 	(junction
-		(at 34.29 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b62cb73-cf2a-4bcf-8a34-738116511898")
-	)
-	(junction
 		(at 132.08 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "703715c0-d8a4-4740-8c7d-459603b5dc53")
-	)
-	(junction
-		(at 34.29 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "769774ae-ac25-4106-8fac-6c5f867added")
 	)
 	(junction
 		(at 233.68 209.55)
@@ -4669,12 +4675,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac31fadb-9c35-4866-94df-f3ec4d574ceb")
-	)
-	(junction
-		(at 34.29 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc5d3d4c-f308-483a-b2fe-9cfa3f488ee0")
 	)
 	(junction
 		(at 245.11 219.71)
@@ -4954,7 +4954,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 62.23) (xy 34.29 62.23)
+			(xy 31.75 72.39) (xy 34.29 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5354,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 72.39) (xy 34.29 72.39)
+			(xy 31.75 62.23) (xy 34.29 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5404,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 138.43) (xy 49.53 138.43)
+			(xy 45.72 138.43) (xy 49.53 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5674,6 +5674,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 62.23) (xy 34.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6be0b7-8ef4-442e-af03-7c0aead3e52d")
+	)
+	(wire
+		(pts
 			(xy 156.21 86.36) (xy 160.02 86.36)
 		)
 		(stroke
@@ -5774,7 +5784,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 138.43) (xy 34.29 138.43)
+			(xy 31.75 148.59) (xy 34.29 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6474,7 +6484,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 148.59) (xy 34.29 148.59)
+			(xy 30.48 138.43) (xy 34.29 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7014,7 +7024,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 138.43) (xy 36.83 138.43)
+			(xy 34.29 138.43) (xy 38.1 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7404,16 +7414,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 62.23) (xy 34.29 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb74df55-137c-4e33-b5f8-881f9bd4d021")
-	)
-	(wire
-		(pts
 			(xy 238.76 147.32) (xy 237.49 147.32)
 		)
 		(stroke
@@ -7686,7 +7686,7 @@
 	)
 	(global_label "IN-"
 		(shape input)
-		(at 31.75 138.43 180)
+		(at 31.75 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7696,7 +7696,7 @@
 		)
 		(uuid "0108064b-9348-48db-8349-e705fb6a70a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2571 138.43 0)
+			(at 25.2571 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +8346,7 @@
 	)
 	(global_label "IN+"
 		(shape input)
-		(at 31.75 72.39 180)
+		(at 31.75 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8356,7 +8356,7 @@
 		)
 		(uuid "ce687237-75e9-4f0a-8bc9-aa11be7d6258")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2571 72.39 0)
+			(at 25.2571 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8787,7 @@
 	)
 	(symbol
 		(lib_id "DS100M06V_linear:black_safety_4mm_connector")
-		(at 25.4 129.54 0)
+		(at 26.67 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8796,7 +8796,7 @@
 		(fields_autoplaced yes)
 		(uuid "05e0a522-15dc-48be-a35e-6f93a3f1bd94")
 		(property "Reference" "J9"
-			(at 29.21 129.5399 0)
+			(at 30.48 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8805,7 @@
 			)
 		)
 		(property "Value" "black_safety_4mm_connector"
-			(at 29.21 132.0799 0)
+			(at 30.48 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8813,8 +8813,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DS100M06V_linear:black_safety_4mm_connector"
-			(at 25.4 129.54 0)
+		(property "Footprint" "DS100M06V_linear:red_safety_4mm_connector"
+			(at 26.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 129.54 0)
+			(at 26.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +8832,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 26.924 136.906 0)
+			(at 28.194 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,16 +9167,15 @@
 	)
 	(symbol
 		(lib_id "DS100M06V_linear:red_safety_4mm_connector")
-		(at 25.4 78.74 0)
+		(at 25.4 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "111eec97-b51f-414d-939c-dc4b3235333f")
 		(property "Reference" "J8"
-			(at 29.21 78.7399 0)
+			(at 29.21 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9184,7 @@
 			)
 		)
 		(property "Value" "red_safety_4mm_connector"
-			(at 29.21 81.2799 0)
+			(at 29.21 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9193,7 @@
 			)
 		)
 		(property "Footprint" "DS100M06V_linear:red_safety_4mm_connector"
-			(at 25.4 78.74 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 78.74 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9211,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 26.924 86.106 0)
+			(at 26.924 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,6 +9297,69 @@
 			(project "DS100M06V_linear"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 27.94 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1187e93a-cfe1-4325-b738-a6acff655dab")
+		(property "Reference" "H8"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WireFeedHole"
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 27.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DS100M06V_linear"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -9574,7 +9636,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 25.4 148.59 0)
+		(at 25.4 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9583,7 +9645,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d914591-5ea9-4de0-9efb-2d077e768f9a")
 		(property "Reference" "J4"
-			(at 26.035 143.51 0)
+			(at 26.035 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9653,7 @@
 			)
 		)
 		(property "Value" "wire2board"
-			(at 26.035 146.05 0)
+			(at 26.035 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9661,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 25.4 148.59 0)
+			(at 25.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9670,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 148.59 0)
+			(at 25.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 148.59 0)
+			(at 25.4 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9842,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 27.94 48.26 0)
+		(at 26.67 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9789,7 +9851,7 @@
 		(fields_autoplaced yes)
 		(uuid "223ba9cf-9ff9-4a3b-94b2-c168be296393")
 		(property "Reference" "H1"
-			(at 30.48 46.99 0)
+			(at 29.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +9860,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 30.48 49.53 0)
+			(at 29.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9869,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 27.94 48.26 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +9878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 48.26 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +9887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 48.26 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12070,6 +12132,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a66c039-ad06-4a37-9152-0edfc946df26")
+		(property "Reference" "H5"
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WireFeedHole"
+			(at 29.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DS100M06V_linear"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 295.91 129.54 270)
 		(mirror x)
@@ -12839,7 +12964,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 26.67 62.23 0)
+		(at 26.67 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12848,7 +12973,7 @@
 		(fields_autoplaced yes)
 		(uuid "69dfb743-50a6-46e9-a879-8ef42912caee")
 		(property "Reference" "J3"
-			(at 27.305 57.15 0)
+			(at 27.305 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +12981,7 @@
 			)
 		)
 		(property "Value" "wire2board"
-			(at 27.305 59.69 0)
+			(at 27.305 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12989,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
-			(at 26.67 62.23 0)
+			(at 26.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +12998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 62.23 0)
+			(at 26.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +13007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 62.23 0)
+			(at 26.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14869,7 +14994,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 138.43 90)
+		(at 41.91 138.43 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14878,7 +15003,7 @@
 		(dnp no)
 		(uuid "91b7f412-47bc-42b9-a9ce-18e31c386978")
 		(property "Reference" "R8"
-			(at 40.64 144.78 90)
+			(at 41.91 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14886,7 +15011,7 @@
 			)
 		)
 		(property "Value" "1 Meg"
-			(at 40.64 142.24 90)
+			(at 41.91 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +15019,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 40.64 136.652 90)
+			(at 41.91 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +15028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 138.43 0)
+			(at 41.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,7 +15037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 138.43 0)
+			(at 41.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,7 +15046,7 @@
 			)
 		)
 		(property "Partnumber" "RNCF1206BKE1M00"
-			(at 40.64 135.89 90)
+			(at 53.086 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,6 +18171,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db5dd300-4a87-47a0-b9cd-3cb996d89b17")
+		(property "Reference" "H6"
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WireFeedHole"
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 26.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DS100M06V_linear"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 182.88 203.2 180)
 		(unit 1)
@@ -19171,7 +19359,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 29.21 158.75 0)
+		(at 27.94 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19179,7 +19367,7 @@
 		(dnp no)
 		(uuid "f88038dd-ec2b-442d-8de2-d2e57dfd3ca1")
 		(property "Reference" "H3"
-			(at 31.75 157.48 0)
+			(at 30.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19188,7 +19376,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 31.75 160.02 0)
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19197,7 +19385,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 29.21 158.75 0)
+			(at 27.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19206,7 +19394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 158.75 0)
+			(at 27.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19215,7 +19403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 158.75 0)
+			(at 27.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19500,6 +19688,69 @@
 			(project "DS100M06V_linear"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 27.94 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff30c9bf-b5bd-4b80-881c-e8656880947b")
+		(property "Reference" "H7"
+			(at 30.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WireFeedHole"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DS100M06V_linear"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "H7")
 					(unit 1)
 				)
 			)

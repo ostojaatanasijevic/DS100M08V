@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +75,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "2e9001bb-4d27-4c2d-859b-8909091b540b")
 	)
 	(fp_text user "${REFERENCE}"

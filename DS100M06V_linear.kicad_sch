@@ -11735,7 +11735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "DS100M06V_linear:DPDT_bigger"
 			(at 279.4 83.82 0)
 			(effects
 				(font
@@ -14734,7 +14734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "DS100M06V_linear:DPDT_bigger"
 			(at 279.4 127 0)
 			(effects
 				(font

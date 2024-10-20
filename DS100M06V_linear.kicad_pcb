@@ -2060,7 +2060,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "17e0f652-d520-4484-9fad-87c6491ce0f2")
-		(at 166.2 143.9 180)
+		(at 166 138 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "C17"
@@ -15965,7 +15965,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/ed77e844-34a1-413d-a09d-29a20d8460e7")
+		(path "/6edd1586-efe8-41ca-ac44-529a5e20d41d")
 		(sheetname "Root")
 		(sheetfile "DS100M06V_linear.kicad_sch")
 		(attr smd)
@@ -16200,7 +16200,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+	(footprint "DS100M06V_linear:DPDT_bigger"
 		(layer "F.Cu")
 		(uuid "c4bd8724-d9eb-4c6d-9a16-6ee440ced0d9")
 		(at 139 121.3575)
@@ -16209,7 +16209,7 @@
 		(property "Reference" "SW1"
 			(at 2.75 -1.6 0)
 			(layer "F.SilkS")
-			(uuid "f6f88f5e-6a58-489c-966a-9ec777433eb8")
+			(uuid "f5b839c4-6576-4d3b-8e0c-05c378e0a3e6")
 			(effects
 				(font
 					(size 1 1)
@@ -16220,7 +16220,7 @@
 		(property "Value" "SW_DPDT_x2"
 			(at 3 5 0)
 			(layer "F.Fab")
-			(uuid "45b0a09e-93a4-4a7f-b207-e42cfb38f622")
+			(uuid "175fe58a-ee69-47dc-8de0-0f5c1ed30d08")
 			(effects
 				(font
 					(size 1 1)
@@ -16228,12 +16228,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "DS100M06V_linear:DPDT_bigger"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9ff8d5d-614f-42cf-8b12-c86e09ca1ef5")
+			(uuid "3d5706f1-5c72-4816-a6e8-d8fdad88df1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16246,7 +16246,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8c175f3-2115-40cf-889c-b02374f4b6a1")
+			(uuid "22f43a67-4b76-4d15-b9d3-158f99ea9e86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16259,7 +16259,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38285a00-7dc2-4f67-8f5d-46fab4febc6b")
+			(uuid "108bebb4-5df5-4b88-9c04-2b839929a185")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16280,7 +16280,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "51702a88-15d8-4d5b-bd46-a12a5558c102")
+			(uuid "2f47b9dc-255e-451b-90cf-cee12c036219")
 		)
 		(fp_line
 			(start -2.1 3.75)
@@ -16290,7 +16290,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9afe2d1a-ea42-498d-9166-6ebfba674275")
+			(uuid "7490231f-b1ca-4259-9223-2f07d9f2f1c5")
 		)
 		(fp_line
 			(start -1.75 -0.45)
@@ -16300,7 +16300,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "774c764c-9cbb-4c0b-a86c-4dd3a9300737")
+			(uuid "77c67705-c334-4107-85fe-0dfef8aa1390")
 		)
 		(fp_line
 			(start 5.9 -0.45)
@@ -16310,7 +16310,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "34a1691f-1c45-431a-bc40-f27f74363eea")
+			(uuid "8d727a2b-caae-4cf1-b725-2e078587d135")
 		)
 		(fp_line
 			(start 7.1 -0.45)
@@ -16320,7 +16320,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "411a1a4a-8901-40f9-9fcd-5db213396c76")
+			(uuid "57a1766b-f983-471a-9c56-a125e0e61762")
 		)
 		(fp_line
 			(start 7.1 3.75)
@@ -16330,7 +16330,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "30b16db6-5d1a-4ddf-b908-ef430c95d42b")
+			(uuid "ec6c8880-1984-4dcb-9de5-4e7f9eb2e1a7")
 		)
 		(fp_poly
 			(pts
@@ -16342,47 +16342,47 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "ab279581-e892-4f12-a640-ac6c6a8c62bc")
+			(uuid "d5df9dd5-de2c-4471-b286-4fd823cd4922")
 		)
 		(fp_line
-			(start -2.25 -0.95)
-			(end 7.25 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "10a903c2-ce17-4405-84c0-ec9a553c7453")
-		)
-		(fp_line
-			(start -2.25 4.25)
+			(start -2.25 4.3)
 			(end -2.25 -0.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "29a5e688-0f21-4a40-8a20-0745a2c56d69")
+			(uuid "6a45c0dc-287a-4357-8b74-c2f92223f64f")
 		)
 		(fp_line
-			(start 7.25 -0.95)
-			(end 7.25 4.25)
+			(start -1.75 -1)
+			(end 10.7 -1)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc7c4b5e-a1a1-4abd-aeab-8002925c99be")
+			(uuid "5fc1057e-f3d8-436f-bed4-ff0d4a324555")
 		)
 		(fp_line
-			(start 7.25 4.25)
-			(end -2.25 4.25)
+			(start 10.7 -1)
+			(end 10.7 4.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "371cd83d-f4e3-470b-8c7c-ca990934c50b")
+			(uuid "e2122469-6d53-4fe8-918e-6b14b3869eca")
+		)
+		(fp_line
+			(start 10.7 4.3)
+			(end -2.25 4.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7bc25362-9c57-4d2a-932d-2b4798ffa428")
 		)
 		(fp_line
 			(start -2 3.65)
@@ -16392,7 +16392,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "519dcf34-47b3-4423-b03b-c6630b161211")
+			(uuid "9c5a4ce2-5cb8-40e3-a435-6eff6b1a46ce")
 		)
 		(fp_line
 			(start -1 -0.35)
@@ -16402,7 +16402,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f4839326-aaa8-439f-971e-16fc6d53330a")
+			(uuid "d93cb331-cc5d-458c-8346-63b18c51c6cd")
 		)
 		(fp_line
 			(start -1 -0.35)
@@ -16412,7 +16412,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "049fd153-73f1-47e1-9f95-1d8a201a8e80")
+			(uuid "d879478c-3b7a-4577-970e-9204ea8baaf5")
 		)
 		(fp_line
 			(start 7 -0.35)
@@ -16422,7 +16422,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "429ccff5-1dd6-44d0-9451-0d3fdd76b83b")
+			(uuid "b70d67ae-d497-45d9-85d5-321be87d2314")
 		)
 		(fp_line
 			(start 7 3.65)
@@ -16432,12 +16432,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4edfb725-8f08-4e00-9daf-86fa358ec208")
+			(uuid "f1eafdac-f801-49e0-8a15-037e5e9d79c6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 2.5 1.65 0)
 			(layer "F.Fab")
-			(uuid "f63b0b90-bbe9-4f60-9f12-7ad26864d13d")
+			(uuid "c68ab005-9f50-4e36-9a58-e7ac8e61e56e")
 			(effects
 				(font
 					(size 1 1)
@@ -16445,76 +16445,75 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
-			(at 0 0)
-			(size 1.4 1.4)
-			(drill 0.9)
+		(pad "1" thru_hole oval
+			(at 0 0.1)
+			(size 2.7 1.5)
+			(drill oval 2.2 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.1785714286)
 			(net 23 "Net-(SW1A-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "18bd27b8-d8d3-44cd-a5a3-04ac2adcbaf6")
+			(uuid "4468404b-96e9-45f5-9e2c-e2517a755ee3")
 		)
-		(pad "2" thru_hole circle
-			(at 2.5 0)
-			(size 1.4 1.4)
-			(drill 0.9)
+		(pad "2" thru_hole oval
+			(at 4 0.1)
+			(size 2.7 1.5)
+			(drill oval 2.2 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 25 "Net-(SW1A-B)")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "7c948334-9c9c-46c5-aebb-6ed81cbb1056")
+			(uuid "0d3a5241-e22f-4756-a029-7d30259c4b98")
 		)
-		(pad "3" thru_hole circle
-			(at 5 0)
-			(size 1.4 1.4)
-			(drill 0.9)
+		(pad "3" thru_hole oval
+			(at 8 0.1)
+			(size 2.7 1.5)
+			(drill oval 2.2 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "Net-(SW1A-C)")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "ded190d9-b776-4f46-a630-38a59ab3e7a2")
+			(uuid "39bb0d7f-9220-4ae0-a2e2-89a8f74d4bf8")
 		)
-		(pad "4" thru_hole circle
-			(at 5 3.3)
-			(size 1.4 1.4)
-			(drill 0.9)
+		(pad "4" thru_hole oval
+			(at 8 3.2)
+			(size 2.7 1.5)
+			(drill oval 2.2 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 21 "Net-(SW1B-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "43272722-084c-4c0b-a7ba-52f2cb020fed")
+			(uuid "e21b8389-2249-425d-8c6a-ae292bfe8ab2")
 		)
-		(pad "5" thru_hole circle
-			(at 2.5 3.3)
-			(size 1.4 1.4)
-			(drill 0.9)
+		(pad "5" thru_hole oval
+			(at 4 3.2)
+			(size 2.7 1.5)
+			(drill oval 2.2 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "Net-(SW1B-B)")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "877370a1-8742-4eef-97de-ff265ee21767")
+			(uuid "9e5487f2-74ee-413a-8ec9-53c5e87a5cdd")
 		)
-		(pad "6" thru_hole circle
-			(at 0 3.3)
-			(size 1.4 1.4)
-			(drill 0.9)
+		(pad "6" thru_hole oval
+			(at 0 3.2)
+			(size 2.7 1.5)
+			(drill oval 2.2 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(SW1B-C)")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "4edd05cd-6584-4109-92a0-b0c3713b766b")
+			(uuid "15adda03-ccd4-450f-8e00-8c78c865aff0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CK_JS202011CQN_DPDT_Straight.wrl"
+		(model "${DS100M06V}/DPDT Slide Switch.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -7 -1.6 8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -22071,7 +22070,7 @@
 		(descr "Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, green, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf")
 		(tags "cliff 4mm socket jack banana green")
 		(property "Reference" "J9"
-			(at 0 10.25 360)
+			(at 0 10.25 0)
 			(layer "B.SilkS")
 			(uuid "1bcf93fb-d839-4cea-a1a3-2ad4d596d396")
 			(effects
@@ -22083,7 +22082,7 @@
 			)
 		)
 		(property "Value" "black_safety_4mm_connector"
-			(at 0 -9.75 360)
+			(at 0 -9.75 0)
 			(layer "B.Fab")
 			(uuid "4b70203b-c98c-4633-a519-41a8bb14d309")
 			(effects
@@ -22153,7 +22152,7 @@
 			(uuid "bf2787fb-67fb-4d56-983d-8face0169d33")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "6bd69ba7-0c9e-484b-94d4-978f87dc51b7")
 			(effects
@@ -22183,7 +22182,7 @@
 		(descr "Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, green, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf")
 		(tags "cliff 4mm socket jack banana green")
 		(property "Reference" "J10"
-			(at 0 10.25 360)
+			(at 0 10.25 0)
 			(layer "B.SilkS")
 			(uuid "e5a4c773-4a6a-4a47-884d-9762bd1c9279")
 			(effects
@@ -22195,7 +22194,7 @@
 			)
 		)
 		(property "Value" "BNC_panel_mount"
-			(at 0 -9.75 360)
+			(at 0 -9.75 0)
 			(layer "B.Fab")
 			(uuid "74f5d2a3-2e09-439d-8256-8b2addf83f73")
 			(effects
@@ -22265,7 +22264,7 @@
 			(uuid "f5ccfa0b-7cd9-4e0e-8569-77fcaac00528")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "532c6a8c-64eb-4413-bcdc-a7cc0707a9ab")
 			(effects
@@ -24036,7 +24035,7 @@
 		(descr "Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, green, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf")
 		(tags "cliff 4mm socket jack banana green")
 		(property "Reference" "J8"
-			(at 0 10.25 360)
+			(at 0 10.25 0)
 			(layer "B.SilkS")
 			(uuid "4078a0b1-b9f7-4c18-833a-fe2e23970e42")
 			(effects
@@ -24048,7 +24047,7 @@
 			)
 		)
 		(property "Value" "red_safety_4mm_connector"
-			(at 0 -9.75 360)
+			(at 0 -9.75 0)
 			(layer "B.Fab")
 			(uuid "d9d40dfe-ed64-447a-91d8-8e5c67375e1b")
 			(effects
@@ -24118,7 +24117,7 @@
 			(uuid "0b6cf091-ae71-4a27-9e71-3c745291aa36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "cc6241e8-0cf6-4b59-b270-da2c76525343")
 			(effects

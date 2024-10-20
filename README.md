@@ -1,2 +1,2 @@
-![plot](.figs/3d_view_top.png)
+![plot](figs/3d_view_top.png)
 

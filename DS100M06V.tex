@@ -34,6 +34,27 @@
 \tableofcontents
 \pagebreak
 
+\section{Power rails}
+\subsection{Capacitance multiplier}
+The goal is regulating the noisy 9V input to 
+roughly 5V using a capacitance multiplier. 
+
+BD679 has minimal $\beta_{hfe}$ of 750. If we assume
+the worst case current consumption of 20 mA, required 
+base current is 27 uA. At this current, there is no
+eccessive $V_{be}$ drop, so we can assume it is 
+around 1.4 V.
+
+Selecting resistors to overshadow the base current,
+means selecting their current to be 100x the base current, 
+or 2.7 mA. At the 9V input, total resistance should be
+3k. 
+
+Voltage divider should output 5 V + 1.4 V = 6.4V. 
+1 kOhm and 2.5 kOhm split generates 6.43V, perfect for 
+our usecase. 
+
+
 %--Paper--
 \section{Offset results}
 \subsection{10x gain enabled}

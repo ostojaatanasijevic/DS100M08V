@@ -75,8 +75,19 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "2e9001bb-4d27-4c2d-859b-8909091b540b")
+	)
+	(fp_rect
+		(start 0 7)
+		(end -15 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dffdf460-8d5a-4425-b30a-cdcbb934b832")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

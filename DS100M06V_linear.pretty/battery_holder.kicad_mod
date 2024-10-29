@@ -1,0 +1,141 @@
+(footprint "battery_holder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f34ece7a-88b9-4d7e-9aa7-d69d19eb2a97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "battery_holder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95a0aec4-1f19-4026-bab4-75e5688d27ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12bbd20e-e454-4b6a-877f-8b40e8b41bc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e5d9240-393c-445a-90c0-a2732b3344d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7eb504f-b20a-416a-8b5b-ec28afecb864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -54 -15)
+		(end 54.5 16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9962e866-d923-4c2c-afdf-bbc52ffe095a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "563d0d60-7a07-4e9c-8333-7a687866169d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -27.6 8)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2d83f26c-5bf5-4b85-a2bd-d821a69e1fa6")
+	)
+	(pad "" np_thru_hole circle
+		(at 27.6 -8)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0317d297-e3b2-4579-923e-94e4f1beb8ca")
+	)
+	(pad "" np_thru_hole circle
+		(at 36 8)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7bf8d349-37fc-4545-9e18-6b7f13a5291e")
+	)
+	(pad "1" smd roundrect
+		(at -39.5 -0.1)
+		(size 7.3 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "af4d1229-107c-4970-bd9e-6c229b0cd3b6")
+	)
+	(pad "2" smd roundrect
+		(at 39.5 0)
+		(size 7.3 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "78af710b-4b65-4dac-b7ba-ede54c5f8b45")
+	)
+	(model "${DS100M06V}/18650_LI-ON_Battery_Holder_1042P.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

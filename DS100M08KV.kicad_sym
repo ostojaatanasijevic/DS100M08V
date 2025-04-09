@@ -610,7 +610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DS100M06V_linear:BNC_panel_mount"
+		(property "Footprint" "DS100M08KV:BNC_panel_mount"
 			(at 0 0 0)
 			(effects
 				(font

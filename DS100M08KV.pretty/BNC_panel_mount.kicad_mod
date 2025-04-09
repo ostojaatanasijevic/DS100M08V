@@ -1,7 +1,7 @@
 (footprint "BNC_panel_mount"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, green, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf")
 	(tags "cliff 4mm socket jack banana green")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "BNC_panel_mount"
-		(at 0.5 11.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "158f422f-e656-4c4d-8370-22f665cb1de7")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,26 +55,26 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start 15 7)
-		(end -15 -7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "2e9001bb-4d27-4c2d-859b-8909091b540b")
-	)
-	(fp_rect
 		(start 0 7)
 		(end -15 -7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "dffdf460-8d5a-4425-b30a-cdcbb934b832")
+	)
+	(fp_rect
+		(start 15 7)
+		(end -15 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "2e9001bb-4d27-4c2d-859b-8909091b540b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -100,6 +87,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${DS100M06V}/BNC-BJ.step"
 		(offset
 			(xyz -15.5 0 12)

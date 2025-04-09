@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "diff-probe")(type "KiCad")(uri "${KIPRJMOD}/differential_probe.kicad_sym")(options "")(descr ""))
-  (lib (name "DS100M06V_linear")(type "KiCad")(uri "${KIPRJMOD}/DS100M06V_linear.kicad_sym")(options "")(descr ""))
-  (lib (name "all_symbols_used")(type "KiCad")(uri "${KIPRJMOD}/all_symbols_used.kicad_sym")(options "")(descr ""))
+  (lib (name "diff-probe")(type "KiCad")(uri "${KIPRJMOD}/DS100M08KV.kicad_sym")(options "")(descr ""))
+  (lib (name "DS100M08KV")(type "KiCad")(uri "${KIPRJMOD}/DS100M08KV.kicad_sym")(options "")(descr ""))
 )

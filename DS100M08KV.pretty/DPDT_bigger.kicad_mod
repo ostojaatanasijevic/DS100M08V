@@ -1,7 +1,7 @@
 (footprint "DPDT_bigger"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
 	(tags "switch DPDT")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dae95b74-4c51-40ed-bead-631e8828e5c5")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -135,7 +122,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f26963a1-3e0e-4406-abdd-b1c1c503c046")
 	)
@@ -288,6 +275,7 @@
 		(remove_unused_layers no)
 		(uuid "aa65ef8d-532a-4e44-a09c-ed448d76cb41")
 	)
+	(embedded_fonts no)
 	(model "${DS100M06V}/DPDT Slide Switch.step"
 		(offset
 			(xyz -7 -1.6 8)

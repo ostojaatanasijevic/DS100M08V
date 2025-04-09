@@ -1,6 +1,8 @@
-DS100M06V-backups/
+*.lck
 merenja/
+gerbers/
 simulacije/*.raw
 *.edf
-DS100M06V_linear-backups/
+*.zip
+*backups/
 

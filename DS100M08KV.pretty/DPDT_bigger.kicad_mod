@@ -276,7 +276,7 @@
 		(uuid "aa65ef8d-532a-4e44-a09c-ed448d76cb41")
 	)
 	(embedded_fonts no)
-	(model "${DS100M06V}/DPDT Slide Switch.step"
+	(model "${KIPRJMOD}/DS100M08KV.pretty/DPDT Slide Switch.step"
 		(offset
 			(xyz -7 -1.6 8)
 		)

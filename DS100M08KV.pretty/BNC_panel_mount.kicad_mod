@@ -88,7 +88,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${DS100M06V}/BNC-BJ.step"
+	(model "${KIPRJMOD}/DS100M08KV.pretty/BNC-BJ.step"
 		(offset
 			(xyz -15.5 0 12)
 		)

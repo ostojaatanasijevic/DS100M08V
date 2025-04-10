@@ -6,7 +6,7 @@
 	(descr "C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
 	(tags "switch DPDT")
 	(property "Reference" "REF**"
-		(at 2.75 -1.6 0)
+		(at 0 -4.7 0)
 		(layer "F.SilkS")
 		(uuid "c1a55e12-be32-44db-8f12-4021e6f25e14")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "DPDT_bigger"
-		(at 3 5 0)
+		(at -1 3.35 0)
 		(layer "F.Fab")
 		(uuid "ae9f00c0-8b3d-4fce-8313-835654ea16e9")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -4 -1.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -4 -1.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,28 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.1 -0.45)
-		(end -2.1 3.75)
+		(start -10.5 0)
+		(end -8.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4db4e047-95f4-4d3c-b8c1-9eacc3f52b7c")
+	)
+	(fp_line
+		(start -9.5 -1)
+		(end -9.5 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd4c0a30-4d33-4fe1-8b9d-0a2c949a0b4b")
+	)
+	(fp_line
+		(start -8 -3.8)
+		(end -8 3.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -65,8 +85,8 @@
 		(uuid "cd11ff43-e3c4-44df-a5ee-acebd6cad26d")
 	)
 	(fp_line
-		(start -2.1 3.75)
-		(end -0.9 3.75)
+		(start -8 3.8)
+		(end -6.8 3.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +95,8 @@
 		(uuid "31386f34-a126-4bba-b79b-b0e52a427858")
 	)
 	(fp_line
-		(start -1.75 -0.45)
-		(end -2.1 -0.45)
+		(start -7.65 -3.8)
+		(end -8 -3.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +105,8 @@
 		(uuid "afc4090b-53cf-4ceb-887a-a5115dda9b3c")
 	)
 	(fp_line
-		(start 5.9 -0.45)
-		(end 7.1 -0.45)
+		(start 6.8 -3.8)
+		(end 8 -3.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -95,8 +115,8 @@
 		(uuid "f4fa4b65-7d10-4926-b719-295eed34ba42")
 	)
 	(fp_line
-		(start 7.1 -0.45)
-		(end 7.1 3.75)
+		(start 8 -3.8)
+		(end 8 3.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,8 +125,8 @@
 		(uuid "2c96720c-58a6-4499-98d9-b20d5852738b")
 	)
 	(fp_line
-		(start 7.1 3.75)
-		(end 5.9 3.75)
+		(start 8 3.8)
+		(end 6.8 3.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -114,9 +134,51 @@
 		(layer "F.SilkS")
 		(uuid "4e787636-51a3-41b8-926e-bd398bb1fe9c")
 	)
+	(fp_line
+		(start 8.5 0)
+		(end 10.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7572e85c-8627-416a-9823-6796f5b4f237")
+	)
+	(fp_line
+		(start 9.5 -1)
+		(end 9.5 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e41e7be-a939-44d6-848c-4bd2cd26a217")
+	)
+	(fp_circle
+		(center -9.5 0)
+		(end -8.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a8471cd-44a2-4a09-a0e7-77856ef7d820")
+	)
+	(fp_circle
+		(center 9.5 0)
+		(end 10.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9e84fd27-3f5f-41a7-8b9b-3c1a864c448d")
+	)
 	(fp_poly
 		(pts
-			(xy -1 -0.45) (xy -1.48 -0.45) (xy -1 -0.93) (xy -1 -0.45)
+			(xy -8.35 -3.37) (xy -8.83 -3.37) (xy -8.35 -3.85) (xy -8.35 -3.37)
 		)
 		(stroke
 			(width 0.12)
@@ -126,49 +188,20 @@
 		(layer "F.SilkS")
 		(uuid "f26963a1-3e0e-4406-abdd-b1c1c503c046")
 	)
-	(fp_line
-		(start -2.3 -1)
-		(end 10.7 -1)
+	(fp_rect
+		(start -8 -3.8)
+		(end 8 3.8)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "2df1a8b2-b05d-476c-90fc-04681be26ae7")
+		(uuid "adb5dff7-4841-47c5-ab3a-f89337a4ef4c")
 	)
 	(fp_line
-		(start -2.3 4.3)
-		(end -2.300045 -1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f5134bee-56fd-459f-9cef-b17127cadf2e")
-	)
-	(fp_line
-		(start 10.7 -1)
-		(end 10.7 4.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2dc667d3-0eed-4711-8f43-236ee3914a04")
-	)
-	(fp_line
-		(start 10.7 4.3)
-		(end -2.3 4.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0939299c-9ea3-4e3f-8f84-7f51c90996af")
-	)
-	(fp_line
-		(start -2 3.65)
-		(end -2 0.65)
+		(start -6 2)
+		(end -6 -1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -177,8 +210,8 @@
 		(uuid "09c01495-9f36-43cf-80b5-5df2c8c868d4")
 	)
 	(fp_line
-		(start -1 -0.35)
-		(end -2 0.65)
+		(start -5 -2)
+		(end -6 -1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -187,8 +220,8 @@
 		(uuid "b8137818-7ad7-4f9d-ba92-46afe4fbeba7")
 	)
 	(fp_line
-		(start -1 -0.35)
-		(end 7 -0.35)
+		(start -5 -2)
+		(end 3 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -197,8 +230,8 @@
 		(uuid "ef1be669-60c5-452c-88e7-4a5fb47d50d4")
 	)
 	(fp_line
-		(start 7 -0.35)
-		(end 7 3.65)
+		(start 3 -2)
+		(end 3 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -207,8 +240,8 @@
 		(uuid "c53533fa-51ce-4b14-8d2d-3c119592dbb0")
 	)
 	(fp_line
-		(start 7 3.65)
-		(end -2 3.65)
+		(start 3 2)
+		(end -6 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -216,8 +249,19 @@
 		(layer "F.Fab")
 		(uuid "ecb5e41e-e630-4adf-9973-81f5b5f5dbfd")
 	)
+	(fp_rect
+		(start -11.7 -4)
+		(end 11.7 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "558702ad-2584-4118-81f7-85f4d894e73a")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 2.5 1.65 0)
+		(at -1.5 0 0)
 		(layer "F.Fab")
 		(uuid "d00448ee-7e38-4feb-91d0-93aff894fbba")
 		(effects
@@ -228,63 +272,63 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at 0 0.1)
-		(size 2.7 1.5)
-		(drill oval 2.2 1)
+		(at -4 -1.3)
+		(size 3 1.5)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f1a22095-f042-42fe-9404-17b4d4b484c5")
 	)
 	(pad "2" thru_hole oval
-		(at 4 0.1)
-		(size 2.7 1.5)
-		(drill oval 2.2 1)
+		(at 0 -1.3)
+		(size 3 1.5)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "02f1c38d-7236-4518-a78b-d3d327841222")
 	)
 	(pad "3" thru_hole oval
-		(at 8 0.1)
-		(size 2.7 1.5)
-		(drill oval 2.2 1)
+		(at 4 -1.3)
+		(size 3 1.5)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0ee850a7-fd39-4a03-bf09-d840615900f1")
 	)
 	(pad "4" thru_hole oval
-		(at 8 3.2)
-		(size 2.7 1.5)
-		(drill oval 2.2 1)
+		(at 4 1.3)
+		(size 3 1.5)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2af378f1-f022-48c2-8334-4e86f0db8040")
 	)
 	(pad "5" thru_hole oval
-		(at 4 3.2)
-		(size 2.7 1.5)
-		(drill oval 2.2 1)
+		(at 0 1.3)
+		(size 3 1.5)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fdfa8fb1-c4d1-47e7-979d-096327759945")
 	)
 	(pad "6" thru_hole oval
-		(at 0 3.2)
-		(size 2.7 1.5)
-		(drill oval 2.2 1)
+		(at -4 1.3)
+		(size 3 1.5)
+		(drill oval 2.5 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "aa65ef8d-532a-4e44-a09c-ed448d76cb41")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/DS100M08KV.pretty/DPDT Slide Switch.step"
+	(model "${KIPRJMOD}/DS100M08KV.pretty/toggle-switch_7x23mm_DPDT_SS22F25.step"
 		(offset
-			(xyz -7 -1.6 8)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

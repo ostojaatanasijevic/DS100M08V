@@ -682,119 +682,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connectors_and_wire_to_board:Wire2Board"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Wire2Board"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Wire2Board_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Converter_DCDC:IA0509S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2703,6 +2590,183 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5484,12 +5548,12 @@
 		(uuid "fe042fbc-a7fd-46dc-b574-80638778d74f")
 	)
 	(no_connect
-		(at 26.67 247.65)
-		(uuid "6d410cb8-7944-4add-a449-36f127ec35c7")
+		(at 26.67 250.19)
+		(uuid "1a0fc67d-63d0-4105-bec7-6cdad548458b")
 	)
 	(no_connect
-		(at 26.67 250.19)
-		(uuid "71e3759b-3dcc-41e2-8a2e-d1e3af654ad7")
+		(at 26.67 247.65)
+		(uuid "ac6cd613-9d76-4d59-a3c5-3df8e8bc92f0")
 	)
 	(wire
 		(pts
@@ -6523,6 +6587,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 243.84) (xy 144.78 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454e2bbb-5734-4894-adc5-9be6d035b753")
+	)
+	(wire
+		(pts
 			(xy 156.21 110.49) (xy 160.02 110.49)
 		)
 		(stroke
@@ -7413,16 +7487,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 254) (xy 147.32 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83e61b9e-877f-45dc-b418-e3817e55690b")
-	)
-	(wire
-		(pts
 			(xy 44.45 196.85) (xy 44.45 199.39)
 		)
 		(stroke
@@ -8043,6 +8107,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 252.73) (xy 147.32 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ceddae-2f15-45e6-842d-a1a92ce7b1b0")
+	)
+	(wire
+		(pts
 			(xy 382.27 213.36) (xy 382.27 215.9)
 		)
 		(stroke
@@ -8280,6 +8354,16 @@
 			(type default)
 		)
 		(uuid "cf90df4e-de38-457a-aafb-a101ef38a199")
+	)
+	(wire
+		(pts
+			(xy 147.32 254) (xy 144.78 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3687d41-92c9-488f-ac6f-07a1e6d013a0")
 	)
 	(wire
 		(pts
@@ -8633,6 +8717,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 245.11) (xy 147.32 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd947c2-fe83-40ab-a94f-e12d7f258f62")
+	)
+	(wire
+		(pts
 			(xy 34.29 133.35) (xy 36.83 133.35)
 		)
 		(stroke
@@ -8720,16 +8814,6 @@
 			(type default)
 		)
 		(uuid "f81bfb13-d57d-4a1b-878a-36e62593b4a1")
-	)
-	(wire
-		(pts
-			(xy 144.78 243.84) (xy 147.32 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f866b41a-e7a4-441b-a7f4-83abb328a074")
 	)
 	(wire
 		(pts
@@ -10863,7 +10947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "DS100M08KV:M3_with_screw"
 			(at 26.67 29.21 0)
 			(effects
 				(font
@@ -12264,7 +12348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Horizontal_TabUp"
+		(property "Footprint" "DS100M08KV:TO-126-3_Horizontal_TabUp_No_Hole"
 			(at 354.33 175.26 0)
 			(effects
 				(font
@@ -12949,71 +13033,6 @@
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "U1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors_and_wire_to_board:Wire2Board")
-		(at 152.4 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "494189e2-e021-4cb1-a227-e03183e1f50a")
-		(property "Reference" "J7"
-			(at 152.4 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Wire2Board"
-			(at 152.4 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 152.4 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2afe5515-14e9-4ca0-a859-aa225ea747ec")
-		)
-		(instances
-			(project "DS100M06V_linear"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
-					(reference "J7")
-					(unit 1)
 				)
 			)
 		)
@@ -14417,71 +14436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors_and_wire_to_board:Wire2Board")
-		(at 152.4 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62790285-740a-412e-9a6e-f257236c2ef2")
-		(property "Reference" "J6"
-			(at 152.4 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Wire2Board"
-			(at 152.4 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm"
-			(at 152.4 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d19611c1-56bb-4ef2-97ac-3bdc0c638445")
-		)
-		(instances
-			(project "DS100M06V_linear"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 85.09 67.31 180)
 		(unit 1)
@@ -15486,7 +15440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "DS100M08KV:M3_with_screw"
 			(at 386.08 121.92 0)
 			(effects
 				(font
@@ -17834,16 +17788,14 @@
 	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 285.75 189.23 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5200a64-b06d-460f-be48-e704c0dcb72a")
 		(property "Reference" "C40"
-			(at 281.94 187.3249 0)
+			(at 289.56 187.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17852,7 +17804,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 281.94 189.8649 0)
+			(at 289.56 189.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17967,6 +17919,77 @@
 			(project "DS100M06V_linear"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 147.32 250.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6122d56-e1bf-4ec4-a10f-1e80bfb3d23c")
+		(property "Reference" "BT1"
+			(at 143.51 247.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 143.51 249.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DS100M08KV:battery_holder"
+			(at 147.32 248.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 248.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 147.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12cb9593-861d-4863-9a30-c52e0849b8e2")
+		)
+		(pin "1"
+			(uuid "6c3fac76-9671-4b27-a314-4b23e939969f")
+		)
+		(instances
+			(project "DS100M08KV"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -18136,7 +18159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "DS100M08KV:M3_with_screw"
 			(at 364.49 50.8 0)
 			(effects
 				(font
@@ -20629,7 +20652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Horizontal_TabUp"
+		(property "Footprint" "DS100M08KV:TO-126-3_Horizontal_TabUp_No_Hole"
 			(at 354.33 210.82 0)
 			(effects
 				(font
@@ -20756,81 +20779,6 @@
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 21.59 247.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1cafacd-89d1-44f7-9acf-c2e862a4bac1")
-		(property "Reference" "J12"
-			(at 18.288 248.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 22.225 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 21.59 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kupujemprodajem.com/elektronika-i-komponente/moduli-za-samoizgradnju/ugradni-usb-c-type-waterproof-usb-connector-sasijski-usbc/oglas/161452006?filterId=6636612997"
-			(at 21.59 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 21.59 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e99a0d36-860a-4887-ac45-60c94581d216")
-		)
-		(pin "4"
-			(uuid "ce294a8b-285a-4219-b86a-26f6af93145c")
-		)
-		(pin "2"
-			(uuid "63080ee0-f308-4d19-9aea-a4c48666f610")
-		)
-		(pin "1"
-			(uuid "8d25558c-8334-4636-b46e-44f6bc6c8435")
-		)
-		(instances
-			(project ""
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
-					(reference "J12")
-					(unit 1)
 				)
 			)
 		)
@@ -21133,7 +21081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DS100M08KV:red_safety_4mm_connector"
+		(property "Footprint" "DS100M08KV:black_safety_4mm_connector"
 			(at 25.4 34.29 0)
 			(effects
 				(font
@@ -21233,6 +21181,83 @@
 			(project "DS100M06V_linear"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 21.59 247.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e92e379f-ab2a-49dc-885a-a531279180ac")
+		(property "Reference" "J2"
+			(at 20.32 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 20.32 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 21.59 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 21.59 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ccf3fde-d2b3-4807-afd5-0802251c14e6")
+		)
+		(pin "2"
+			(uuid "3fa20687-ee8b-4344-a101-3abe83641754")
+		)
+		(pin "4"
+			(uuid "7c5ee4da-d387-4769-9882-340400332c32")
+		)
+		(pin "1"
+			(uuid "d44299e5-9e96-46fa-aa6a-b5183b3071ed")
+		)
+		(instances
+			(project ""
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -21966,7 +21991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "DS100M08KV:M3_with_screw"
 			(at 27.94 151.13 0)
 			(effects
 				(font

@@ -1,3 +1,3 @@
-![3D_top](figs/DS100M08KV_top.png)
-![3D_bottom](figs/DS100M08KV_bottom.png)
-![schematic](figs/DS100M08KV.svg)
+![3D_top](DS100M08KV_top.png)
+![3D_bottom](DS100M08KV_bottom.png)
+![schematic](DS100M08KV.svg)

@@ -1,4 +1,4 @@
-12210175094620
+13954984209114
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55257,6 +55257,13 @@ TO-126-3 Horizontal RM 2.28mm
 0
 3
 3
+DS100M08KV
+USB_C_floating
+
+
+0
+0
+0
 DS100M08KV
 battery_holder
 

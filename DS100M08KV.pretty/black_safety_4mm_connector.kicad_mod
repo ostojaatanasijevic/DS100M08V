@@ -55,6 +55,37 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start 13.4 -7)
+		(end 13.4 7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "560ddb49-551a-4faf-9a3f-cc6ff6c8790b")
+	)
+	(fp_line
+		(start 13.4 -7)
+		(end 13.4 7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fab483aa-eb35-4d41-8ce1-5e4a86ad954b")
+	)
+	(fp_rect
+		(start -16.1 -7)
+		(end 16.1 7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0a3646c3-f7a5-4c81-a91a-c261d278ab21")
+	)
 	(fp_rect
 		(start 15 7)
 		(end -15 -7)
@@ -80,13 +111,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/DS100M08KV.pretty/Banana Plug 4mm Red CT2238 v1.step"
 		(offset
-			(xyz -7.5 -65 -12.5)
+			(xyz -8 -65 -12.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -0 -0 90)
 		)
 	)
 )

@@ -1,4 +1,4 @@
-8721428156481
+13955234432462
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55243,6 +55243,27 @@ switch DPDT
 0
 6
 6
+DS100M08KV
+M3_with_screw
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+DS100M08KV
+TO-126-3_Horizontal_TabUp_No_Hole
+TO-126-3, Horizontal, RM 2.28mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-3 Horizontal RM 2.28mm
+0
+3
+3
+DS100M08KV
+USB_C_floating
+
+
+0
+0
+0
 DS100M08KV
 battery_holder
 

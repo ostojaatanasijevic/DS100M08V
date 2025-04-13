@@ -5,7 +5,7 @@
 	(uuid "e034a6c3-9973-4355-8043-c1e988e27610")
 	(paper "A3")
 	(title_block
-		(title "1:200 600V 100 MHz differential probe")
+		(title "1:200 800V 100 MHz differential probe")
 		(rev "v1")
 		(company "TPI")
 	)

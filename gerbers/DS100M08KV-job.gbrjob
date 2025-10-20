@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10"
+      "Version": "9.0.0"
     },
-    "CreationDate": "2024-07-07T01:33:31+02:00"
+    "CreationDate": "2025-05-24T18:36:10+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "DS100M06V_linear",
-      "GUID": "44533130-304d-4303-9656-5f6c696e6561",
+      "Name": "DS100M08KV",
+      "GUID": "44533130-304d-4303-984b-562e6b696361",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 107.85,
-      "Y": 35.85
+      "X": 100.2,
+      "Y": 52.2
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -24,73 +24,74 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.5
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.5,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
-    },
-    {
-      "Layers": "Inner",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
-      "TrackToTrack": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "DS100M06V_linear-F_Cu.gbr",
+      "Path": "DS100M08KV-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "Path": "DS100M08KV-In1_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "Path": "DS100M08KV-In2_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-B_Cu.gbr",
+      "Path": "DS100M08KV-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-F_Paste.gbr",
+      "Path": "DS100M08KV-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-B_Paste.gbr",
+      "Path": "DS100M08KV-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-F_Silkscreen.gbr",
+      "Path": "DS100M08KV-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-B_Silkscreen.gbr",
+      "Path": "DS100M08KV-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "DS100M06V_linear-F_Mask.gbr",
+      "Path": "DS100M08KV-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "DS100M06V_linear-B_Mask.gbr",
+      "Path": "DS100M08KV-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "DS100M06V_linear-Edge_Cuts.gbr",
+      "Path": "DS100M08KV-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

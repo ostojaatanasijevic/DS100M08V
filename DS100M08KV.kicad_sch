@@ -7175,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 85.09 82.55)
+			(xy 85.09 71.12) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8395,16 +8395,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 90.17) (xy 85.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b85ddc90-7f43-4193-81d5-a7886eef761d")
-	)
-	(wire
-		(pts
 			(xy 129.54 265.43) (xy 129.54 266.7)
 		)
 		(stroke
@@ -8645,6 +8635,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 91.44) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d047a109-da8d-4bb7-9857-7f09a51ab5fa")
+	)
+	(wire
+		(pts
 			(xy 129.54 266.7) (xy 132.08 266.7)
 		)
 		(stroke
@@ -8715,16 +8715,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 88.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7abec2a-d0c2-43d7-9a58-f5806baa549f")
-	)
-	(wire
-		(pts
 			(xy 41.91 196.85) (xy 41.91 204.47)
 		)
 		(stroke
@@ -8752,6 +8742,26 @@
 			(type default)
 		)
 		(uuid "db153b6b-8a73-42ef-b8c5-0d67faaaa15d")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb88f1d-af2f-49b2-98bc-0bd6ed2190d4")
+	)
+	(wire
+		(pts
+			(xy 85.09 99.06) (xy 85.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc112e29-9039-44cb-be88-6a836404f8e0")
 	)
 	(wire
 		(pts
@@ -10037,7 +10047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "100"
 			(at 297.942 73.914 90)
 			(effects
 				(font
@@ -10311,7 +10321,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k2"
 			(at 356.87 236.2199 0)
 			(effects
 				(font
@@ -10860,7 +10870,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k2"
 			(at 356.87 200.6599 0)
 			(effects
 				(font
@@ -13290,7 +13300,7 @@
 		(fields_autoplaced yes)
 		(uuid "48db9bd7-6ba4-4ab8-9969-d8846e6638b0")
 		(property "Reference" "R28"
-			(at 227.33 259.08 0)
+			(at 227.33 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13298,8 +13308,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 227.33 261.62 0)
+		(property "Value" "91k"
+			(at 227.33 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AD8039"
+		(property "Value" "AD8066"
 			(at 258.572 66.294 0)
 			(effects
 				(font
@@ -14654,7 +14664,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "50"
 			(at 295.91 118.11 90)
 			(effects
 				(font
@@ -15469,6 +15479,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 104.14 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c75b000-b33d-4b58-b395-e549cf5cee23")
+		(property "Reference" "TP5"
+			(at 106.68 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "536c56f1-cbf0-4cbd-8b74-97b275262a82")
+		)
+		(instances
+			(project "DS100M08KV"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 97.79 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15687,7 +15764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "200"
 			(at 318.77 68.58 90)
 			(effects
 				(font
@@ -18871,7 +18948,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 85.09 86.36 0)
+		(at 85.09 95.25 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -18881,7 +18958,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb15800-eabc-4a6d-bd04-440f3d1bbfce")
 		(property "Reference" "RV2"
-			(at 82.55 85.0899 0)
+			(at 82.55 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18890,7 +18967,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 82.55 87.6299 0)
+			(at 82.55 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18899,7 +18976,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 85.09 86.36 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18908,7 +18985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 86.36 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18917,7 +18994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 86.36 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20490,7 +20567,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "500"
 			(at 295.91 105.41 90)
 			(effects
 				(font
@@ -21250,7 +21327,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8039"
+		(property "Value" "AD8066"
 			(at 262.89 126.238 0)
 			(effects
 				(font
@@ -22086,7 +22163,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8039"
+		(property "Value" "AD8066"
 			(at 261.62 52.578 0)
 			(effects
 				(font
@@ -22500,69 +22577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 27.94 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f88038dd-ec2b-442d-8de2-d2e57dfd3ca1")
-		(property "Reference" "H3"
-			(at 30.48 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 30.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DS100M08KV:M3_with_screw"
-			(at 27.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "DS100M06V_linear"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DS100M06V_linear:1SV324")
 		(at 123.19 76.2 270)
 		(unit 1)
@@ -22650,7 +22664,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "10"
 			(at 295.91 63.5 90)
 			(effects
 				(font
@@ -22906,7 +22920,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 91.44 86.36 90)
+		(at 95.25 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22915,7 +22929,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd413ef4-d97d-4dc4-b6d3-608c597dd67f")
 		(property "Reference" "#GND01"
-			(at 93.98 86.36 0)
+			(at 97.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22924,7 +22938,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 88.9 86.36 0)
+			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22933,7 +22947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 86.36 0)
+			(at 95.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22942,7 +22956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 86.36 0)
+			(at 95.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22951,7 +22965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 86.36 0)
+			(at 95.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22966,6 +22980,73 @@
 			(project "DS100M06V_linear"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
 					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 104.14 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff0e8005-0cca-400f-a6f2-8588b95297f4")
+		(property "Reference" "#GND038"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f10a90fa-6261-403d-bb54-c1567d97846e")
+		)
+		(instances
+			(project "DS100M08KV"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610"
+					(reference "#GND038")
 					(unit 1)
 				)
 			)

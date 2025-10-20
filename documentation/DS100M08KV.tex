@@ -227,5 +227,17 @@ that total input noise rms at 100 \si{\mega \hertz} bandwidth is 80 \si{\micro \
 AD8009 has an input noise level of $1.9 \si{\nano \volt} / \sqrt{\si{\hertz}}$ meaning 
 that total input noise rms at 100 \si{\mega \hertz} bandwidth is 19 \si{\micro \volt_{RMS}}.
 
+\section{Issues}
+
+\section{Asymetric gain}
+
+At 100 mode, positive input connected to sig gen at 30 Mhz, reades 6.7 Vpp instead of 
+10 Vpp.
+
+In this configuration, AD8039 buffers sees 1 kOhm resistor from output to 
+AD8009 input and 2 kOhm after that to ground.
+
+Moving to 100 and 200 combo improves response, now closer to 8 Vpp
+
 
 \end{document}
